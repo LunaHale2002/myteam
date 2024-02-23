@@ -198,8 +198,10 @@ hgroup img{
   background-color: var(--dark-green);
 }
 
-.homa{
-  flex-direction: row;
+.icon-list{
+  display: flex;
+  gap: 2rem;
+  padding: 20px 150px 20px;
   color: var(--white);
 }
 
