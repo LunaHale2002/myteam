@@ -6,124 +6,164 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'livvic', sans-serif;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  line-height: 2rem;
-  color: #FFFFFF;
-  background-color: #014E56;
+:root {
+  --midnigth-green: #014e56;
+  --ligth-coral: #f67e7e;
+  --white: #fff;
+  --rapture-blue: #79c8c7;
+  --police-blue: #2c6269;
+  --deep-jungle-green: #004047;
+  --sacramento-state-green: #012f34;
+  --dark-green: #002529;
 }
 
-header{
-  display: flex;
-  flex-direction: column;
+body {
+  font-family: "livvic", sans-serif;
+  color: var(--white);
+  background-color: var(--midnigth-green);
   text-align: center;
-  align-items: center;
-  gap: 2rem;
 }
 
-.toolbar{
-  width: 110%;
+ul {
+  list-style: none;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.h1-large,
+.h1-small,
+.h2,
+.h3 {
+  font-weight: 700;
+}
+
+.h1-large {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.h1-small {
+  font-size: 64px;
+  line-height: 56px;
+}
+
+.h2 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.h3 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.body1,
+.body2 {
+  font-weight: 600;
+}
+
+.body1 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.body2 {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.toolbar {
   display: flex;
-  align-items: center;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  padding: 3rem 3rem 2rem 3rem;
+  position: fixed;
+  width: 100dvw;
+  background-color: var(--midnigth-green);
 }
 
-.menu{
-  display: flex;
-  flex-direction: column;
+.menu {
   position: absolute;
   right: -100%;
   top: 0;
   width: 75dvw;
   height: 100dvh;
-  background-color: #014E56;
+  background-color: var(--midnigth-green);
   padding: 50px 20px 0 20px;
-  transition: 400ms ease-out; 
+  transition: 400ms ease-out;
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    a {
+      border: 1px solid white;
+      border-radius: 20px;
+      padding: 5px 15px;
+    }
+  }
 }
 
-ul{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
-}
-
-header a, a:visited, a:active{
-  border: 1px solid white;
-  border-radius: 20px;
-  padding: 5px 15px;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-
-.open{
+.open {
   right: 0;
 }
 
-.close-btn{
+.close-btn {
   position: absolute;
   top: 20px;
   right: 20px;
   width: 20px;
 }
 
-.hero{
+.hero {
   padding: 120px 20px 200px 20px;
-}
-
-.talent{
-  color: #F67E7E;
-}
-
-.hero h1{
-  padding: 0 50px;
-}
-
-.hero p{
-  padding: 20px;
-}
-
-.btn-dark{
-  color: #012F34;
-  border: 2px solid #012F34;
-  border-radius: 20px;
-  padding: 5px 15px;
-  text-decoration: none;
-  animation: none;
+  h1 {
+    padding: 0 50px;
+    span {
+      color: var(--ligth-coral);
+    }
+  }
+  p {
+    padding: 20px;
+    line-height: 28px;
+  }
 }
 
 main{
-  background: #012F34;
+  background-color: var(--sacramento-state-green);
 }
 
 .build{
+  margin: 25px;
   text-align: start;
   width: 240px;
   height: 200px;
   font-size: 32px;
 }
 
+.icon{
+  margin: 20px;
+}
+
 .experienced{
-  color: #F67E7E;
   line-height: 50px;
+  color: var(--ligth-coral);
 }
 
 .network{
   opacity: 80%;
   font-weight: 600;
   font-size: 15px;
+  line-height: 25px;
 }
 
 .results{
-  background-color: #004047;
+  background-color: var(--deep-jungle-green);
 }
 
 .delivering{
@@ -133,30 +173,34 @@ main{
 }
 
 .success{
-  color: #79C8C7;
+  color: var(--rapture-blue);
 }
 
 blockquote{
   margin: 1rem 0;
-  width: 327px;
   font-weight: 600;
-  font-size: 15px;
   line-height: 25px;
 }
 
+hgroup img{
+  border: 2px solid var(--white);
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
 .ready{
-  background-color: #F67E7E;
-  color: #012F34;
+  background-color: var(--ligth-coral);
+  color: var(--sacramento-state-green);
 }
 
 .smalk{
-  background-color: #002529;
+  background-color: var(--dark-green);
 }
 
 .homa{
   flex-direction: row;
-  text-decoration: none;
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 .address{
@@ -171,5 +215,4 @@ blockquote{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem 3rem 2rem 3rem;
 }
