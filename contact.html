@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="contact">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact</title>
 </head>
-<body> 
+<body>
+    <header>
+        <div class="toolbar">
+          <img src="public/images/logo.svg" alt="logo">
+          <div class="menu" id="menu">
+            <img class="close-btn" id="close-btn" src="public/images/icon-close.svg" alt="close button">
+            <nav>
+              <ul>
+                <li><a href="index.html"></a>home</li>
+                <li><a href="about.html"></a>about</li>
+              </ul>
+            </nav>
+            <a class="contact" href="contact.html">contact us</a>
+        </div>
+      <img id="burger" src="public/images/icon-hamburger.svg" alt="icon hamburger">
+      </div>
+      <div class="about">
+        <h1 class="h2">Contact</h1>
+        <p class="ask">Ask us about</p>
+      </div>
+      </header>
+      <main class="color">
+        <section>
+            <ul class="usage">
+                <li><img class="icon-img" src="public/images/icon-person.svg" alt="icon-person">The quality of our talent network</li>
+                <li><img class="icon-img" src="public/images/icon-cog.svg" alt="icon-cog">Usage & implementation of our software</li>
+                <li><img class="icon-img" src="public/images/icon-chart.svg" alt="icon-chart">How we help drive innovation</li>
+            </ul>
+        </section>
+        <form id="formulaire">
+            <ul class="formulaire">
+              <li>
+                <label for="name"> Name </label>
+                <input id="name" type="text" name="user_name" />
+              </li>
+              <li>
+                <label for="mail"> Email Address </label>
+                <input id="mail" type="email" name="user_mail" />
+              </li>
+              <li>
+                <label for="name"> Company Name </label>
+                <input id="company" type="name">
+              </li>
+              <li>
+                <label for="title"> Title </label>
+                <input id="title" type="text">
+              </li>
+              <li>
+                <label for="text"> Message </label>
+                <textarea id="message"></textarea>
+              </li>
+            </ul>
+            <div class="sub">
+                <button class="submit" id="submit" type="submit">submit</button>
+            </div>
+          </form>
+      </main>
+      <footer>
+        <div class="smalk">
+          <img class="logo" src="public/images/logo.svg" alt="logo">
+            <ul class="icon-list">
+              <li><a href="index.html">home</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+          <address class="address">
+            987 Hillcrest Lane<br>
+            Irvine, CA<br>
+            California 92714<br>
+            Call Us : <a href="tel:949-833-7432">949-833-7432</a>
+          </address>
+          <ul class="link">
+            <li><a href="https://www.facebook.com/?locale=fr_FR"><img src="public/images/icon-facebook.svg" alt="facebook"></a></li>
+            <li><a href="https://www.pinterest.fr/"><img src="public/images/icon-pinterest.svg" alt="pinterest"></a></li>
+            <li><a href="https://twitter.com/?lang=fr"><img src="public/images/icon-twitter.svg" alt="twitter"></a></li>
+          </ul>
+          <small class="address">Copiryght 2020. All Rights Reserved</small>
+        </div>
+      </footer>
     <script type="module" src="/main.js"></script>
 </body>
 </html>

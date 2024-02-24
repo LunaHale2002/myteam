@@ -82,6 +82,7 @@ a:active {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 40px 30px 10px 30px;
     position: fixed;
     width: 100dvw;
     background-color: var(--midnigth-green);
@@ -134,7 +135,7 @@ a:active {
     }
 }
 
-main{
+.meet{
     background-color: var(--deep-jungle-green);
 }
 
@@ -149,6 +150,7 @@ main{
 }
 
 .ready{
+    padding: 50px 10px 50px 10px;
     background-color: var(--ligth-coral);
     color: var(--sacramento-state-green);
 }
@@ -156,9 +158,15 @@ main{
 .smalk{
     background-color: var(--dark-green);
 }
+
+.logo{
+    margin-top: 40px;
+}
   
-.homa{
-    flex-direction: row;
+.icon-list{
+    display: flex;
+    gap: 2rem;
+    padding: 20px 150px 20px;
     color: var(--white);
 }
   
@@ -169,10 +177,8 @@ main{
     line-height: 25px;
 }
   
-.liens{
-    width: 50%;
+.veze{
+    padding:20px 0 10px 140px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 43px 5px;
+    gap: 2rem;
 }

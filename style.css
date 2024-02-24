@@ -82,6 +82,7 @@ a:active {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 40px 30px 10px 30px;
   position: fixed;
   width: 100dvw;
   background-color: var(--midnigth-green);
@@ -190,12 +191,21 @@ hgroup img{
 }
 
 .ready{
+  padding: 40px 10px 50px 10px;
   background-color: var(--ligth-coral);
   color: var(--sacramento-state-green);
 }
 
+.started{
+  margin: 20px;
+}
+
 .smalk{
   background-color: var(--dark-green);
+}
+
+.logo{
+  margin-top: 40px;
 }
 
 .icon-list{
@@ -213,8 +223,7 @@ hgroup img{
 }
 
 .liens{
-  width: 50%;
+  padding:20px 0 10px 140px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  gap: 2rem;
 }
