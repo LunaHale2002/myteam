@@ -184,7 +184,7 @@ blockquote{
 
 hgroup img{
   border: 2px solid var(--white);
-  margin: 10px;
+  border-radius: 50px;
   width: 50px;
   height: 50px;
 }
@@ -228,7 +228,7 @@ hgroup img{
 }
 
 @media  screen and (min-width: 640px) {
-  body {
+  body{
     padding: 0;
   }
   .build{
@@ -248,5 +248,27 @@ hgroup img{
   .network{
     padding: 0 250px 0 185px;
     text-align: start;
+  }
+  .delivering{
+    padding: 70px 220px 70px 220px;
+  }
+  blockquote{
+    padding: 0 145px 0 145px;
+  }
+  hgroup img{
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  .ready{
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .logo{
+    padding: 20px 435px 0 0;
+  }
+  .address{
+    margin-left: 460px;
   }
 }
