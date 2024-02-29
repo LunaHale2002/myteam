@@ -23,16 +23,28 @@ body {
     background-color: var(--midnigth-green);
     text-align: center;
 }
-  
-ul {
-    list-style: none;
-}
-  
+
 a,
 a:visited,
 a:active {
     text-decoration: none;
     color: #fff;
+}
+
+a.btn-dark,
+a.btn-dark:visited,
+a.btn-dark:active{
+    border: 2px solid var(--dark-green);
+    border-radius: 30px;
+    color: var(--dark-green);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+ul {
+    list-style: none;
 }
   
 .h1-large,
@@ -86,6 +98,7 @@ a:active {
     position: fixed;
     width: 100dvw;
     background-color: var(--midnigth-green);
+    z-index: 99999;
 }
   
 .menu {
@@ -146,12 +159,19 @@ a:active {
 
 .directors{
     background-color: var(--sacramento-state-green);
-    border: 50px solid var(--sacramento-state-green);
-    border-radius: 250px;
+    /* border: 50px solid var(--sacramento-state-green); */
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    position: relative;
 }
 
 .avatar{
     border: 2px solid var(--white);
+    border-radius: 50%;
     margin: 10px;
     width: 50px;
     height: 50px;
@@ -165,7 +185,10 @@ a:active {
     background-color: var(--ligth-coral);
     border: 20px solid var(--ligth-coral);
     border-radius: 50px;
-    }
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 30px);
+}
 
 .close{
     background-color: var(--rapture-blue);
