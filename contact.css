@@ -142,57 +142,73 @@ a:active {
 }
 
 .usage{
-    padding: 10px 40px 10px 40px;
-    font-weight: 700;
-    font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .icon-img{
-    position: relative;
-    top: 30px;
+  position: relative;
+  top: 30px;
+}
+
+/* .icon-chart{
+  margin-right: 60px;
+} */
+
+.rel{
+  margin-right: 85px;
+}
+
+.rela{
+  margin-right: 20px;
+}
+
+.relation{
+  padding: 10px 10px 10px 10px;
 }
 
 .formulaire{
-    padding: 20px;
-    opacity: 60%;
-    border: none;
+  padding: 20px;
+  opacity: 60%;
+  border: none;
 }
 
 .sub{
-    padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 .submit{
-    width: 123px;
-    height: 48px;
-    font-weight: 600;
-    font-size: 18px;
+  width: 123px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .smalk{
-    background-color: var(--dark-green);
+  background-color: var(--dark-green);
 }
 
 .logo{
-    margin-top: 40px;
+  margin-top: 40px;
 }
   
 .icon-list{
-    display: flex;
-    gap: 2rem;
-    padding: 20px 150px 20px;
-    color: var(--white);
+  display: flex;
+  gap: 2rem;
+  padding: 20px 150px 20px;
+  color: var(--white);
 }
   
 .address{
-    opacity: 45%;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
+  opacity: 45%;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
 }
   
 .link{
-    padding:20px 0 10px 140px;
-    display: flex;
-    gap: 2rem;
+  padding:20px 0 10px 150px;
+  display: flex;
+  gap: 1rem;
 }

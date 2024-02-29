@@ -137,16 +137,66 @@ a:active {
 
 .meet{
     background-color: var(--deep-jungle-green);
+    h2 {
+        font-weight: 700;
+        font-size: 32px;
+        padding: 60px 0 40px 0;
+    }
+}
+
+.directors{
+    background-color: var(--sacramento-state-green);
+    border: 50px solid var(--sacramento-state-green);
+    border-radius: 250px;
+}
+
+.avatar{
+    border: 2px solid var(--white);
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.marks{
+    color: var(--rapture-blue);
+}
+
+.cross{
+    background-color: var(--ligth-coral);
+    border: 20px solid var(--ligth-coral);
+    border-radius: 50px;
+    }
+
+.close{
+    background-color: var(--rapture-blue);
+    border: 20px solid var(--rapture-blue);
+    border-radius: 50px;
+}
+
+.aden{
+    background-color: var(--dark-green);
+    border: 50px solid var(--dark-green);
+    border-radius: 250px;
+}
+
+.svg{
+    padding:20px 0 10px 175px;
+    display: flex;
+    gap: 1rem;
 }
 
 .some{
     background-color: var(--sacramento-state-green);
-}
-
-.some img{
-    width: 50px;
-    height: 50px;
-    flex-direction: column;
+    h3{
+        font-weight: 700;
+        font-size: 32px;
+        padding: 60px 0 40px 0;
+    }
+    img{
+        height: 20px;
+        display: flex;
+        margin: 40px; 
+    }
 }
 
 .ready{
@@ -178,7 +228,7 @@ a:active {
 }
   
 .veze{
-    padding:20px 0 10px 140px;
+    padding:20px 0 10px 150px;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }

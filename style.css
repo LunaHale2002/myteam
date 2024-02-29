@@ -168,7 +168,6 @@ main{
 }
 
 .delivering{
-  width: 327px;
   margin: 1.5rem 0;
   font-size: 32px;
 }
@@ -223,7 +222,31 @@ hgroup img{
 }
 
 .liens{
-  padding:20px 0 10px 140px;
+  padding:20px 0 10px 150px;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+}
+
+@media  screen and (min-width: 640px) {
+  body {
+    padding: 0;
+  }
+  .build{
+    width: 445px;
+    padding: 150px 0 0;  
+  }
+  .icon{
+    margin-right: 645px;
+    position: relative;
+    top: 95px;
+  }
+  .experienced{
+    padding: 0 350px 0 40px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .network{
+    padding: 0 250px 0 185px;
+    text-align: start;
+  }
 }
