@@ -14,9 +14,18 @@ closeBtn.addEventListener("click", () => {
 });
 
 const btn = document.querySelectorAll(".cross");
+const verso = document.querySelectorAll(".verso");
+const recto = document.querySelectorAll(".recto");
+const rectoBtn = document.querySelectorAll(".close");
 
 for (let i = 0; i < btn.length; i++) {
-  btn[i].addEventListener("click",() => {
-    
+  btn[i].addEventListener("click", () => {
+    recto[i].style.display = "block";
+    verso[i].style.display = "none";
+  })
+
+  rectoBtn[i].addEventListener("click", () => {
+    verso[i].style.display = "block";
+    recto[i].style.display = "none";
   })
 }

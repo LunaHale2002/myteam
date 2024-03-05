@@ -98,7 +98,7 @@ a.btn-dark:active{
   position: fixed;
   width: 100dvw;
   background-color: var(--midnigth-green);
-  z-index: 99999;
+  z-index: 9;
 }
 
 .menu {

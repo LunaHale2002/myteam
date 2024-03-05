@@ -6,17 +6,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --midnigth-green: #014e56;
-    --ligth-coral: #f67e7e;
-    --white: #fff;
-    --rapture-blue: #79c8c7;
-    --police-blue: #2c6269;
-    --deep-jungle-green: #004047;
-    --sacramento-state-green: #012f34;
-    --dark-green: #002529;
-}
-
 .meet{
     background-color: var(--deep-jungle-green);
     h2 {
@@ -36,6 +25,10 @@
     margin-left: 1rem;
     margin-bottom: 3rem;
     position: relative;
+}
+
+.recto{
+    display: none;
 }
 
 .avatar{
