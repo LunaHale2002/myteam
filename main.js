@@ -12,3 +12,11 @@ burger.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   menu.classList.remove("open");
 });
+
+const btn = document.querySelectorAll(".cross");
+
+for (let i = 0; i < btn.length; i++) {
+  btn[i].addEventListener("click",() => {
+    
+  })
+}

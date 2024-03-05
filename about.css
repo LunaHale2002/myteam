@@ -16,144 +16,13 @@
     --sacramento-state-green: #012f34;
     --dark-green: #002529;
 }
-  
-body {
-    font-family: "livvic", sans-serif;
-    color: var(--white);
-    background-color: var(--midnigth-green);
-    text-align: center;
-}
-
-a,
-a:visited,
-a:active {
-    text-decoration: none;
-    color: #fff;
-}
-
-a.btn-dark,
-a.btn-dark:visited,
-a.btn-dark:active{
-    border: 2px solid var(--dark-green);
-    border-radius: 30px;
-    color: var(--dark-green);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-}
-
-ul {
-    list-style: none;
-}
-  
-.h1-large,
-.h1-small,
-.h2,
-.h3 {
-    font-weight: 700;
-}
-  
-.h1-large {
-    font-size: 100px;
-    line-height: 100px;
-}
-  
-.h1-small {
-    font-size: 64px;
-    line-height: 56px;
-}
-  
-.h2 {
-    font-size: 48px;
-    line-height: 48px;
-}
-  
-.h3 {
-    font-size: 18px;
-    line-height: 28px;
-}
-  
-.body1,
-.body2 {
-    font-weight: 600;
-}
-  
-.body1 {
-    font-size: 18px;
-    line-height: 28px;
-}
-  
-.body2 {
-    font-size: 15px;
-    line-height: 25px;
-}
-  
-.toolbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 30px 10px 30px;
-    position: fixed;
-    width: 100dvw;
-    background-color: var(--midnigth-green);
-    z-index: 99999;
-}
-  
-.menu {
-    position: absolute;
-    right: -100%;
-    top: 0;
-    width: 75dvw;
-    height: 100dvh;
-    background-color: var(--midnigth-green);
-    padding: 50px 20px 0 20px;
-    transition: 400ms ease-out;
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 40px;
-      a {
-        border: 1px solid white;
-        border-radius: 20px;
-        padding: 5px 15px;
-      }
-    }
-}
-  
-.open {
-    right: 0;
-}
-  
-.close-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 20px;
-}
-  
-.hero {
-    padding: 120px 20px 200px 20px;
-    h1 {
-      padding: 0 50px;
-      span {
-        color: var(--ligth-coral);
-      }
-    }
-    p {
-      padding: 20px;
-      line-height: 28px;
-    }
-}
 
 .meet{
     background-color: var(--deep-jungle-green);
     h2 {
         font-weight: 700;
-        font-size: 32px;
-        padding: 60px 0 40px 0;
+        font-size: 2rem;
+        padding: 3.75rem 0 2.5rem 0;
     }
 }
 
@@ -173,8 +42,8 @@ ul {
     border: 2px solid var(--white);
     border-radius: 50%;
     margin: 10px;
-    width: 50px;
-    height: 50px;
+    width: 3.1rem;
+    height: 3.1rem;
 }
 
 .marks{
@@ -182,12 +51,16 @@ ul {
 }
 
 .cross{
+    display: flex;
+    align-items: center;
     background-color: var(--ligth-coral);
-    border: 20px solid var(--ligth-coral);
+    padding: 20px;
+    border: none;
     border-radius: 50px;
     position: absolute;
-    bottom: -20px;
-    left: calc(50% - 30px);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .close{
@@ -199,14 +72,18 @@ ul {
     left: calc(50% - 30px);
 }
 
-.aden{
+/* .aden{
     background-color: var(--dark-green);
     border: 50px solid var(--dark-green);
     border-radius: 250px;
+} */
+
+.empowered{
+    padding: 0 3rem 0.6rem 3rem;
 }
 
 .svg{
-    padding:20px 0 10px 175px;
+    padding:1.25rem 0 0.6rem 9rem;
     display: flex;
     gap: 1rem;
 }
@@ -215,46 +92,12 @@ ul {
     background-color: var(--sacramento-state-green);
     h3{
         font-weight: 700;
-        font-size: 32px;
-        padding: 60px 0 40px 0;
+        font-size: 2rem;
+        padding: 3.75rem 0 2.5rem 0;
     }
     img{
-        height: 20px;
+        height: 1.25rem;
         display: flex;
-        margin: 40px; 
+        margin: 2.5rem; 
     }
-}
-
-.ready{
-    padding: 50px 10px 50px 10px;
-    background-color: var(--ligth-coral);
-    color: var(--sacramento-state-green);
-}
-  
-.smalk{
-    background-color: var(--dark-green);
-}
-
-.logo{
-    margin-top: 40px;
-}
-  
-.icon-list{
-    display: flex;
-    gap: 2rem;
-    padding: 20px 150px 20px;
-    color: var(--white);
-}
-  
-.address{
-    opacity: 45%;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-}
-  
-.veze{
-    padding:20px 0 10px 150px;
-    display: flex;
-    gap: 1rem;
 }

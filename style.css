@@ -35,6 +35,18 @@ a:active {
   color: var(--white);
 }
 
+a.btn-dark,
+a.btn-dark:visited,
+a.btn-dark:active{
+    border: 2px solid var(--dark-green);
+    border-radius: 1.8rem;
+    color: var(--dark-green);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
 .h1-large,
 .h1-small,
 .h2,
@@ -43,23 +55,23 @@ a:active {
 }
 
 .h1-large {
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 6.25rem;
+  line-height: 6.25rem;
 }
 
 .h1-small {
-  font-size: 64px;
-  line-height: 56px;
+  font-size: 4rem;
+  line-height: 3.5rem;
 }
 
 .h2 {
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
 .h3 {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
 }
 
 .body1,
@@ -68,13 +80,13 @@ a:active {
 }
 
 .body1 {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
 }
 
 .body2 {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .toolbar {
@@ -82,10 +94,11 @@ a:active {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 30px 10px 30px;
+  padding: 2.5rem 1.8rem 0.6rem 1.8rem;
   position: fixed;
   width: 100dvw;
   background-color: var(--midnigth-green);
+  z-index: 99999;
 }
 
 .menu {
@@ -95,17 +108,17 @@ a:active {
   width: 75dvw;
   height: 100dvh;
   background-color: var(--midnigth-green);
-  padding: 50px 20px 0 20px;
+  padding: 3.1rem 1.25rem 0 1.25rem;
   transition: 400ms ease-out;
   ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
+    gap: 2.5rem;
     a {
       border: 1px solid white;
       border-radius: 20px;
-      padding: 5px 15px;
+      padding: 0.3rem 0.9rem;
     }
   }
 }
@@ -116,22 +129,22 @@ a:active {
 
 .close-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 20px;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 1.25rem;
 }
 
 .hero {
-  padding: 120px 20px 200px 20px;
+  padding: 7.5rem 1.25rem 12.5rem 1.25rem;
   h1 {
-    padding: 0 50px;
+    padding: 0 3.1rem;
     span {
       color: var(--ligth-coral);
     }
   }
   p {
-    padding: 20px;
-    line-height: 28px;
+    padding: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -140,27 +153,27 @@ main{
 }
 
 .build{
-  margin: 25px;
+  margin: 1.5rem;
   text-align: start;
-  width: 240px;
-  height: 200px;
-  font-size: 32px;
+  width: 15rem;
+  height: 10rem;
+  font-size: 2rem;
 }
 
 .icon{
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .experienced{
-  line-height: 50px;
+  line-height: 3.1rem;
   color: var(--ligth-coral);
 }
 
 .network{
   opacity: 80%;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .results{
@@ -169,7 +182,7 @@ main{
 
 .delivering{
   margin: 1.5rem 0;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .success{
@@ -179,24 +192,24 @@ main{
 blockquote{
   margin: 1rem 0;
   font-weight: 600;
-  line-height: 25px;
+  line-height: 1.5rem;
 }
 
 hgroup img{
   border: 2px solid var(--white);
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
+  border-radius: 3.1rem;
+  width: 3.1rem;
+  height: 3.1rem;
 }
 
 .ready{
-  padding: 40px 10px 50px 10px;
+  padding: 2.5rem 0.6rem 3.1rem 0.6rem;
   background-color: var(--ligth-coral);
   color: var(--sacramento-state-green);
 }
 
 .started{
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .smalk{
@@ -204,25 +217,25 @@ hgroup img{
 }
 
 .logo{
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .icon-list{
   display: flex;
   gap: 2rem;
-  padding: 20px 150px 20px;
+  padding: 1.25rem 9.3rem 1.25rem;
   color: var(--white);
 }
 
 .address{
   opacity: 45%;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .liens{
-  padding:20px 0 10px 150px;
+  padding:1.25rem 0 0.6rem 9.3rem;
   display: flex;
   gap: 1rem;
 }
@@ -232,43 +245,45 @@ hgroup img{
     padding: 0;
   }
   .build{
-    width: 445px;
-    padding: 150px 0 0;  
+    width: 27.8rem;
+    padding: 9.3rem 0 0;  
   }
   .icon{
-    margin-right: 645px;
+    margin-right: 40.3rem;
     position: relative;
-    top: 95px;
+    top: 5.9rem;
   }
   .experienced{
-    padding: 0 350px 0 40px;
+    padding: 0 21.8rem 0 2.5rem;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.1rem;
   }
   .network{
-    padding: 0 250px 0 185px;
+    padding: 0 15.6rem 0 11.5rem;
     text-align: start;
   }
   .delivering{
-    padding: 70px 220px 70px 220px;
+    padding: 4.3rem 13.75rem 4.3rem 13.75rem;
   }
   blockquote{
-    padding: 0 145px 0 145px;
+    padding: 0 9rem 0 9rem;
   }
   hgroup img{
     border: 2px solid var(--white);
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
+    border-radius: 3.1rem;
+    width: 3.1rem;
+    height: 3.1rem;
   }
   .ready{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
+    /* display: flex;
+    gap: 2rem; */
   }
   .logo{
-    padding: 20px 435px 0 0;
+    padding: 1.25rem 27.1rem 0 0;
   }
   .address{
-    margin-left: 460px;
+    margin-left: 28.75rem;
   }
 }
